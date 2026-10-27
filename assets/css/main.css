@@ -1513,7 +1513,7 @@ textarea.form-control {
 }
 
 .learning-point strong,
-.learning-point span {
+.learning-point > span:not(.learning-point__number) {
   display: block;
 }
 
@@ -1522,7 +1522,7 @@ textarea.form-control {
   font-size: 15px;
 }
 
-.learning-point span {
+.learning-point > span:not(.learning-point__number) {
   margin-top: 2px;
   color: var(--text-soft);
   font-size: 13px;
